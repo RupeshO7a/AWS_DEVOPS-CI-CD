@@ -1,0 +1,12 @@
+.git
+.gitignore
+.vscode
+__pycache__
+*.pyc
+venv
+.venv
+.env
+Jenkinsfile
+deploy.sh
+docker-compose.yml
+docker-compose.prod.yml
