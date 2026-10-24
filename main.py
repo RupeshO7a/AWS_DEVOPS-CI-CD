@@ -9,7 +9,7 @@ from sqlalchemy.orm import Session
 import models
 from database import Base, SessionLocal, engine
  
-APP_VERSION = "1.0.0"
+APP_VERSION = "1.1.0"
  
  
 @asynccontextmanager
