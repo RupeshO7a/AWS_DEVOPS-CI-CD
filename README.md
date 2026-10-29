@@ -185,7 +185,7 @@ the current setup.
 
 ## Repository Structure
 
-The exact filenames may vary. A typical structure for this project is:
+A typical structure for this project is:
 
 ``` text
 AWS_DEVOPS-CI-CD/
@@ -199,8 +199,6 @@ AWS_DEVOPS-CI-CD/
 └── README.md                # Project documentation
 ```
 
-Use the actual file names in your repository if they differ from this
-example.
 
 ## Prerequisites
 
@@ -447,44 +445,6 @@ docker compose ps
 curl http://localhost:8000/health
 curl http://localhost:8000/items
 ```
-
-If the Compose configuration requires an `IMAGE` environment variable,
-make sure it is set or loaded from the intended environment before
-running Compose commands.
-
-## Screenshots
-
-Add screenshots from your **actual running project** to a folder such as
-`screenshots/`, then update the filenames below to match your
-repository.
-
-Suggested screenshots:
-
-1.  `screenshots/github-repository.png` --- GitHub repository and
-    project files.
-2.  `screenshots/jenkins-build.png` --- Jenkins job and successful
-    build.
-3.  `screenshots/jenkins-console.png` --- relevant deployment log ending
-    in `Finished: SUCCESS`.
-4.  `screenshots/ecr-images.png` --- ECR repository and image tags.
-5.  `screenshots/ec2-instances.png` --- Jenkins and application EC2
-    instances.
-6.  `screenshots/fastapi-docs.png` --- live Swagger documentation.
-7.  `screenshots/health-check.png` --- health response showing database
-    connectivity.
-8.  `screenshots/docker-compose-ps.png` --- running application and
-    database containers.
-
-Once the image files have been added to the repository, display them in
-this section using Markdown, for example:
-
-``` markdown
-![Jenkins successful build](screenshots/jenkins-build.png)
-```
-
-Do not use sample or illustrative images as proof of your own
-deployment. Hide credentials, private keys, tokens, and other sensitive
-details before committing screenshots.
 
 ## Security Considerations
 
